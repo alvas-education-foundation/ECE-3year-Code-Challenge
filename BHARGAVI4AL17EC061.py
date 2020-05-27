@@ -16,3 +16,11 @@ while count<3:
         print("Invalid username and passwor")
         if count==3:
             print("Account Locked")
+            
+            # Your code is successfully logging in but again its is asking for credentials, so their is a bug.
+            Enter the username: Micheal
+Micheal
+Enter the password:e3$WT89x
+e3$WT89x
+You have successfully logged in
+Enter the username:
