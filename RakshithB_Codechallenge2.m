@@ -74,7 +74,7 @@ else
        d=0;
     end    
     
-    
+    % your code doesnot meet the challenge requirment. your code doesnot read the data. So rework on code.
     
     %s wave specifications
     fprintf('\n\ns wave specifications\n');
