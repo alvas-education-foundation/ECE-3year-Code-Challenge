@@ -1,7 +1,7 @@
 %plotting the signal
 x1 = csvread('a01_3.csv'); 
 %disp(data)
-t=0:27000:1
+t=0:27000:1            % you are reading signal to variable x1, but you are using varible data for rest of your code. Rework on your code.
 x= data(:,1);
 y= data(:,2);
 plot(x,y)
