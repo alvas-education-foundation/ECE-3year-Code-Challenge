@@ -1,7 +1,7 @@
 ﻿﻿clc;
 clear all;
 close all;
-d = importdata('data.xls');
+d = importdata('data.xls'); % import data function may not work. Rework on code
 Raw_data = ((d.data(:,2)))
 Time_data = ((d.data(:,1)))
 %% ECG Signal Plot
