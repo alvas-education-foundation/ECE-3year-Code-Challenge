@@ -2,7 +2,7 @@
 
 x=0.01:0.01:2;
 default=input('Press 1 if u want default ecg signal else press 2:\n'); 
-if(default==1)
+if(default==1) % your code does not match the challenge requirement. So your code will be disqualified 
       li=30/72;  
     
       a_pwav=0.25;
