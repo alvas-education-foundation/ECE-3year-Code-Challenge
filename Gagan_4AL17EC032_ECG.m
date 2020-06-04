@@ -108,3 +108,5 @@ xlim([1 3])
 heartrate=(fs*60)/y;
 tx=0:N-1/fs;
 figure,plot(tx(200:600),x1(200:600))
+
+# Code is not correct. Code has many bugs rework to fix it
