@@ -85,3 +85,6 @@ title('Detection of R-Peaks in segrigated signal');
 xlabel('Time');
 ylabel('Amplitude');
 xlim([1 3])
+
+% Your code is detecting R peak for only set of peaks, infact it should detect for all the peaks.
+% But any way code is fine, your have used filtered signal to detect the R peak.
