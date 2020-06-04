@@ -3,7 +3,7 @@ x1 = csvread('a01_3.csv');
 
 %display
 t=0:27000:1
-x= data(:,1);
+x= data(:,1); % you are reading signal to x1 variable but for rest of code you are using data variable. Rework on code.
 y= data(:,2);
 plot(x,y)
 
