@@ -3,7 +3,8 @@ x1 = csvread('a01_3.csv');
 
 %display
 t=0:27000:1
-x= data(:,1);
+x= data(:,1); % you are reading signal to varible x1 but varible data is used to read in the rest of code
+% rework on your code
 y= data(:,2);
 plot(x,y)
 
