@@ -2,7 +2,7 @@
 x1 = csvread('a01_3.csv'); 
 %disp
 t=0:27000:1
-x= data(:,1);
+x= data(:,1); % you are reading signal to variable-x1 and you are trying to extract from other varible. Fix the bug.
 y= data(:,2);
 plot(x,y)
 %signal filtering
