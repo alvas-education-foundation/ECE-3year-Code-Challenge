@@ -48,3 +48,5 @@ disp('dominant peaks');
 duration_in_sec = N/fs;
 duration_in_minute = duration_in_sec/60;
 BPM = beat_count/duration_in_minute;
+
+% your code is not correct. The sampling freq is 100Hz. Rework on code
