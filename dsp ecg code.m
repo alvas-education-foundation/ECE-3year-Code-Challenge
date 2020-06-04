@@ -1,7 +1,7 @@
 x=0.01:0.01:2;
 default=input('Press 1 if u want default ecg signal else press 2:\n'); 
 if(default==1)
-      li=30/72;  
+      li=30/72;  % Your code doesnot read the ECE signal provided, so your code will be disqualified. 
     
       a_pwav=0.25;
       d_pwav=0.09;
