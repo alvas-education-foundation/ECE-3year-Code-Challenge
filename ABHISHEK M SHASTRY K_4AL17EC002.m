@@ -10,9 +10,9 @@ Apply the Fourier Transform to each beat and understand the frequency components
 clc;
 clear all;
 close all;
-d = importdata('data.xls');
-Raw_data = ((d.data(:,2))) % This line is producing error
-Time_data = ((d.data(:,1)))
+d = xlsread('a01_3.csv');
+Raw_data = d(:,2) % This line is producing error
+Time_data = d(:,1)
 %% ECG Signal Plot
 figure(1);
 
